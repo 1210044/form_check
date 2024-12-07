@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "form_check"
+version = "0.1.0"
+description = ""
+authors = ["Azamat Baltaev <1210044@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.6"
+uvicorn = "^0.32.1"
+tinydb = "^4.8.2"
+email-validator = "^2.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+httpx = "^0.28.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
