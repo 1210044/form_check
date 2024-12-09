@@ -20,3 +20,8 @@ The application uses TinyDB for storing form templates and provides an API endpo
     ```sh
     poetry shell
     ```
+
+4. **Run the application:**
+    ```sh
+    uvicorn src.main:app --reload
+    ```
